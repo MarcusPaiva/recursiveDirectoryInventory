@@ -20,3 +20,11 @@ dir_in = DirectoryInventory("C:\\temp\\") # Use you directory here!
 dir_dict = dir_in.as_dict() # Show you directory inventory as dictionary.
 print(f"{dir_dict}") # Show you directory structure with files.
 ```
+
+## Generate package
+
+Run command above:
+
+````shell
+python setup.py sdist bdist_wheel
+````
