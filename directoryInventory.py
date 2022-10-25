@@ -50,11 +50,3 @@ class DirectoryInventory:
             contents=contents,
             size=sum([content.size for content in contents]))
         return invent_brief
-
-
-if __name__ == '__main__':
-    # dir_in = DirectoryInventory(r"C:\Users\marcu\OneDrive\Documentos\arquivos migração")
-    # dir_in = DirectoryInventory(r"C:\Jogos")
-    dir_in = DirectoryInventory("F:\\")
-    dir_dict = dir_in.as_dict()
-    print("here!")
