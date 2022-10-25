@@ -1,14 +1,14 @@
-=Recursive Directory Inventory=
-==Brief==
+*Recursive Directory Inventory
+**Brief
 This repository contains a reader contents of directory, but read contants directory inside directory and show all data, directory size and other things.
 It can simplify to show direcory contents or help you to create a Tree View.
 
-==future versions==
+**Future versions
 Inventory directory tree using asynchronous functions, but this can speedup this reader?
 More file details.
 Warn permission error instead rise exception.
 
-==Usage==
+**Usage
 ```Python
 from directoryInventory import DirectoryInventory
 
